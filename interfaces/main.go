@@ -21,12 +21,10 @@ func printGreeting(b bot) {
 }
 
 func (englishBot) getGreeting() string {
-	// VERY custom logic for generating an english greeting
 	return "Hi there!"
 }
 
 func (spanishBot) getGreeting() string {
-	// VERY custom logic for generating an spanish greeting
 	return "Hola, amigo!"
 }
 
